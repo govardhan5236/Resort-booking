@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(254, 245, 255);
+}
+
+.about-us>p {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 22px;
+    width: 80%;
+}
+a{
+    text-decoration: underline;
+}
+a:hover{
+    text-decoration: overline;
+}

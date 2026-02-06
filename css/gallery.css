@@ -1,0 +1,19 @@
+body {
+    overflow-x: hidden;
+}
+
+.images {
+    display: inline-block;
+    width: 700px;
+    height: 450px;
+    padding: 5px;
+}
+
+.images>img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 15px;
+}

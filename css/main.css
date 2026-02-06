@@ -1,0 +1,60 @@
+body{
+    overflow-x: hidden;
+}
+#bg{
+    opacity: .7;
+    overflow-x: hidden;
+    width: 100%;
+ }
+ .head{
+    position: absolute;
+    top: 65%;
+    left: 35%;
+    font-size: 40px;
+    width: 70%;
+    font-family: 'Hind Madurai', sans-serif;
+    font-style: italic;
+    opacity: .9;
+ }
+ 
+ .flex-box{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+@media screen and (max-width: 1200px) {
+    body {
+    overflow-x: hidden;
+      top: 50%;
+      left: 45%;
+    }
+    .head{ 
+        top: 60%;
+        left: 35%;
+        font-size: 40px;
+        width: 70%;
+        font-family: 'Hind Madurai', sans-serif;
+        font-style: italic;
+        opacity: .9;
+     }
+  }
+@media screen and (max-width: 900px) {
+    body {
+    overflow-x: hidden;
+      top: 50%;
+      left: 45%;
+    }
+    .head{ 
+        top: 40%;
+        left: 25%;
+        font-size: 30px;
+        width: 80%;
+        font-family: 'Hind Madurai', sans-serif;
+        font-style: italic;
+        opacity: .9;
+     }
+  }
